@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,400;1,100;1,200&family=Nunito:ital,wght@0,200;1,200&family=Rubik+Doodle+Shadow&display=swap');
+
+
+* {
+    color: rgb(195, 206, 216);
+}
+
+body{
+    min-height: 100vh;
+    background: url(./arriere-plan.png) center/cover;
+    background-color: rgb(22, 21, 21);
+}
+
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 40px;
+    color: rgb(141, 137, 137);
+    text-shadow: 6px 4px 12px grey;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+main {
+    min-height: 500px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+img {
+    width: 20%;
+}
+
+.flexbox ul {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+
+}
